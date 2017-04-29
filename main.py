@@ -1,9 +1,11 @@
 from sklearn.neural_network import MLPClassifier
 import sampleData
 import csvData
+import dbData
 
 #hovno = sampleData.get_input_instance()
-hovno = csvData.get_input_instance()
+#hovno = csvData.get_input_instance()
+hovno = dbData.get_input_instance()
 
 X = hovno.train_binary_input
 y = hovno.train_binary_result

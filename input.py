@@ -54,10 +54,12 @@ class Input:
     def message_out(self):
         print("------- Message report -------")
 
-        print("Malo vyjst: ")
-        print(self.test_binary_result)
-        print("Vyslo: ")
-        print("[" + ', '.join(map(str, self.test_binary_result_predicted)) + "]")
+        # print("Malo vyjst: ")
+        # print(self.test_binary_result)
+        # print("Vyslo: ")
+        # print("[" + ', '.join(map(str, self.test_binary_result_predicted)) + "]")
+
+        # TODO: Compute recall and precision
 
         right_result = self.get_number_of_right_results()
         accuracy = right_result / len(self.test_binary_result)
