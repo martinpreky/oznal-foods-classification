@@ -1,0 +1,1158 @@
+
+
+========= new iteration ===========
+kfold: 1
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9798
+...Train binary input: 9798
+...Train binary result: 9798
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.69893097
+Iteration 2, loss = 0.52519346
+Iteration 3, loss = 0.44664088
+Iteration 4, loss = 0.40697330
+Iteration 5, loss = 0.37679191
+Iteration 6, loss = 0.35259878
+Iteration 7, loss = 0.33168174
+Iteration 8, loss = 0.31256508
+Iteration 9, loss = 0.29457204
+Iteration 10, loss = 0.27886425
+Iteration 11, loss = 0.26418219
+Iteration 12, loss = 0.25011344
+Iteration 13, loss = 0.23778483
+Iteration 14, loss = 0.22722514
+Iteration 15, loss = 0.21743008
+Iteration 16, loss = 0.20761659
+Iteration 17, loss = 0.19772406
+Iteration 18, loss = 0.18903774
+Iteration 19, loss = 0.18146944
+Iteration 20, loss = 0.17397824
+Iteration 21, loss = 0.16730902
+Iteration 22, loss = 0.16173009
+Iteration 23, loss = 0.15575414
+Iteration 24, loss = 0.14874340
+Iteration 25, loss = 0.11507123
+Iteration 26, loss = 0.09846777
+Iteration 27, loss = 0.09416110
+Iteration 28, loss = 0.08606142
+Iteration 29, loss = 0.08055246
+Iteration 30, loss = 0.07599873
+Iteration 31, loss = 0.07170590
+Iteration 32, loss = 0.06826973
+Iteration 33, loss = 0.06492010
+Iteration 34, loss = 0.06081250
+Iteration 35, loss = 0.05784812
+Iteration 36, loss = 0.05520881
+Iteration 37, loss = 0.05259831
+Iteration 38, loss = 0.05029294
+Iteration 39, loss = 0.04797949
+Iteration 40, loss = 0.04634895
+Iteration 41, loss = 0.04460050
+Iteration 42, loss = 0.04275517
+Iteration 43, loss = 0.04236809
+Iteration 44, loss = 0.04034199
+Iteration 45, loss = 0.04048737
+Iteration 46, loss = 0.03854410
+Iteration 47, loss = 0.03781425
+Iteration 48, loss = 0.03582669
+Iteration 49, loss = 0.03480103
+Iteration 50, loss = 0.03514636
+Iteration 51, loss = 0.03400979
+Iteration 52, loss = 0.03278417
+Iteration 53, loss = 0.03262674
+Iteration 54, loss = 0.03232419
+Iteration 55, loss = 0.03183528
+Iteration 56, loss = 0.03083820
+Iteration 57, loss = 0.03016893
+Iteration 58, loss = 0.03130016
+Iteration 59, loss = 0.03229442
+Iteration 60, loss = 0.02929261
+Iteration 61, loss = 0.02929967
+Iteration 62, loss = 0.02800209
+Iteration 63, loss = 0.02769457
+Iteration 64, loss = 0.02767566
+Iteration 65, loss = 0.02824099
+Iteration 66, loss = 0.02753624
+Iteration 67, loss = 0.02679225
+Iteration 68, loss = 0.02621688
+Iteration 69, loss = 0.02654980
+Iteration 70, loss = 0.02669222
+Iteration 71, loss = 0.02590222
+Iteration 72, loss = 0.02538002
+Iteration 73, loss = 0.02601748
+Iteration 74, loss = 0.02503192
+Iteration 75, loss = 0.02482741
+Iteration 76, loss = 0.02464604
+Iteration 77, loss = 0.02473763
+Iteration 78, loss = 0.02450002
+Iteration 79, loss = 0.02379852
+Iteration 80, loss = 0.02450872
+Iteration 81, loss = 0.02432435
+Iteration 82, loss = 0.02386569
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.64610661  0.93957292  1.        ]
+[ 1.          0.89330454  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3203 z 3583
+
+
+========= new iteration ===========
+kfold: 1
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9798
+...Train binary input: 9798
+...Train binary result: 9798
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.68633996
+Iteration 2, loss = 0.58514806
+Iteration 3, loss = 0.50259864
+Iteration 4, loss = 0.44463716
+Iteration 5, loss = 0.40241194
+Iteration 6, loss = 0.37006288
+Iteration 7, loss = 0.34431664
+Iteration 8, loss = 0.32292968
+Iteration 9, loss = 0.30457802
+Iteration 10, loss = 0.28856757
+Iteration 11, loss = 0.27443172
+Iteration 12, loss = 0.26139754
+Iteration 13, loss = 0.24975403
+Iteration 14, loss = 0.23887906
+Iteration 15, loss = 0.22893780
+Iteration 16, loss = 0.21977941
+Iteration 17, loss = 0.21093824
+Iteration 18, loss = 0.20284125
+Iteration 19, loss = 0.19528694
+Iteration 20, loss = 0.18812096
+Iteration 21, loss = 0.18134959
+Iteration 22, loss = 0.17493433
+Iteration 23, loss = 0.16886339
+Iteration 24, loss = 0.16312577
+Iteration 25, loss = 0.15755818
+Iteration 26, loss = 0.15234680
+Iteration 27, loss = 0.14743898
+Iteration 28, loss = 0.14273466
+Iteration 29, loss = 0.13825981
+Iteration 30, loss = 0.13397900
+Iteration 31, loss = 0.12982639
+Iteration 32, loss = 0.12588829
+Iteration 33, loss = 0.12211694
+Iteration 34, loss = 0.11864229
+Iteration 35, loss = 0.11511830
+Iteration 36, loss = 0.11162728
+Iteration 37, loss = 0.10843757
+Iteration 38, loss = 0.10530901
+Iteration 39, loss = 0.10250522
+Iteration 40, loss = 0.09957521
+Iteration 41, loss = 0.09686848
+Iteration 42, loss = 0.09425671
+Iteration 43, loss = 0.09184136
+Iteration 44, loss = 0.08932975
+Iteration 45, loss = 0.08702658
+Iteration 46, loss = 0.08469353
+Iteration 47, loss = 0.08244143
+Iteration 48, loss = 0.08042770
+Iteration 49, loss = 0.07825521
+Iteration 50, loss = 0.07633266
+Iteration 51, loss = 0.07454959
+Iteration 52, loss = 0.07259168
+Iteration 53, loss = 0.07086012
+Iteration 54, loss = 0.06904710
+Iteration 55, loss = 0.06755307
+Iteration 56, loss = 0.06582930
+Iteration 57, loss = 0.06424957
+Iteration 58, loss = 0.06276913
+Iteration 59, loss = 0.06118414
+Iteration 60, loss = 0.06004160
+Iteration 61, loss = 0.05853929
+Iteration 62, loss = 0.05715139
+Iteration 63, loss = 0.05597236
+Iteration 64, loss = 0.05467548
+Iteration 65, loss = 0.05347466
+Iteration 66, loss = 0.05227244
+Iteration 67, loss = 0.05107289
+Iteration 68, loss = 0.05002283
+Iteration 69, loss = 0.04908409
+Iteration 70, loss = 0.04790257
+Iteration 71, loss = 0.04680953
+Iteration 72, loss = 0.04581542
+Iteration 73, loss = 0.04485974
+Iteration 74, loss = 0.04369334
+Iteration 75, loss = 0.04293279
+Iteration 76, loss = 0.04185616
+Iteration 77, loss = 0.04108419
+Iteration 78, loss = 0.04021107
+Iteration 79, loss = 0.03951203
+Iteration 80, loss = 0.03854238
+Iteration 81, loss = 0.03789431
+Iteration 82, loss = 0.03707665
+Iteration 83, loss = 0.03639102
+Iteration 84, loss = 0.03557723
+Iteration 85, loss = 0.03511050
+Iteration 86, loss = 0.03434243
+Iteration 87, loss = 0.03367077
+Iteration 88, loss = 0.03317975
+Iteration 89, loss = 0.03226532
+Iteration 90, loss = 0.03186956
+Iteration 91, loss = 0.03112207
+Iteration 92, loss = 0.03080572
+Iteration 93, loss = 0.03006164
+Iteration 94, loss = 0.02932597
+Iteration 95, loss = 0.02881153
+Iteration 96, loss = 0.02850661
+Iteration 97, loss = 0.02790637
+Iteration 98, loss = 0.02730560
+Iteration 99, loss = 0.02691473
+Iteration 100, loss = 0.02644527
+Iteration 101, loss = 0.02611022
+Iteration 102, loss = 0.02544107
+Iteration 103, loss = 0.02505206
+Iteration 104, loss = 0.02483162
+Iteration 105, loss = 0.02429469
+Iteration 106, loss = 0.02412721
+Iteration 107, loss = 0.02335961
+Iteration 108, loss = 0.02304612
+Iteration 109, loss = 0.02257906
+Iteration 110, loss = 0.02239494
+Iteration 111, loss = 0.02190411
+Iteration 112, loss = 0.02167751
+Iteration 113, loss = 0.02135601
+Iteration 114, loss = 0.02096916
+Iteration 115, loss = 0.02059497
+Iteration 116, loss = 0.02038481
+Iteration 117, loss = 0.02008194
+Iteration 118, loss = 0.01975723
+Iteration 119, loss = 0.01966627
+Iteration 120, loss = 0.01932982
+Iteration 121, loss = 0.01915081
+Iteration 122, loss = 0.01878631
+Iteration 123, loss = 0.01845749
+Iteration 124, loss = 0.01806433
+Iteration 125, loss = 0.01793746
+Iteration 126, loss = 0.01760901
+Iteration 127, loss = 0.01764424
+Iteration 128, loss = 0.01721727
+Iteration 129, loss = 0.01706721
+Iteration 130, loss = 0.01668930
+Iteration 131, loss = 0.01647622
+Iteration 132, loss = 0.01622157
+Iteration 133, loss = 0.01599446
+Iteration 134, loss = 0.01577980
+Iteration 135, loss = 0.01572381
+Iteration 136, loss = 0.01557265
+Iteration 137, loss = 0.01517396
+Iteration 138, loss = 0.01491354
+Iteration 139, loss = 0.01495506
+Iteration 140, loss = 0.01476406
+Iteration 141, loss = 0.01467969
+Iteration 142, loss = 0.01428992
+Iteration 143, loss = 0.01413002
+Iteration 144, loss = 0.01403822
+Iteration 145, loss = 0.01406033
+Iteration 146, loss = 0.01393828
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.64610661  0.98165548  1.        ]
+[ 1.          0.94773218  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3421 z 3583
+
+
+========= new iteration ===========
+kfold: 2
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9762
+...Train binary input: 9762
+...Train binary result: 9762
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.72907706
+Iteration 2, loss = 0.54971576
+Iteration 3, loss = 0.44834254
+Iteration 4, loss = 0.40465707
+Iteration 5, loss = 0.37544718
+Iteration 6, loss = 0.35163743
+Iteration 7, loss = 0.33201247
+Iteration 8, loss = 0.31298832
+Iteration 9, loss = 0.29756079
+Iteration 10, loss = 0.28160179
+Iteration 11, loss = 0.26542429
+Iteration 12, loss = 0.20464485
+Iteration 13, loss = 0.17189666
+Iteration 14, loss = 0.15662083
+Iteration 15, loss = 0.14418883
+Iteration 16, loss = 0.13289809
+Iteration 17, loss = 0.12427836
+Iteration 18, loss = 0.11694591
+Iteration 19, loss = 0.11033861
+Iteration 20, loss = 0.10600082
+Iteration 21, loss = 0.09961457
+Iteration 22, loss = 0.09440898
+Iteration 23, loss = 0.08988530
+Iteration 24, loss = 0.08583656
+Iteration 25, loss = 0.08303413
+Iteration 26, loss = 0.07825003
+Iteration 27, loss = 0.07497988
+Iteration 28, loss = 0.07091406
+Iteration 29, loss = 0.06766205
+Iteration 30, loss = 0.06570628
+Iteration 31, loss = 0.06224196
+Iteration 32, loss = 0.06013199
+Iteration 33, loss = 0.05888275
+Iteration 34, loss = 0.05530562
+Iteration 35, loss = 0.05315642
+Iteration 36, loss = 0.05107854
+Iteration 37, loss = 0.04875225
+Iteration 38, loss = 0.04728959
+Iteration 39, loss = 0.04532121
+Iteration 40, loss = 0.04321932
+Iteration 41, loss = 0.04192064
+Iteration 42, loss = 0.04211710
+Iteration 43, loss = 0.03952562
+Iteration 44, loss = 0.03838669
+Iteration 45, loss = 0.03660482
+Iteration 46, loss = 0.03536647
+Iteration 47, loss = 0.03456855
+Iteration 48, loss = 0.03271114
+Iteration 49, loss = 0.03308519
+Iteration 50, loss = 0.03216519
+Iteration 51, loss = 0.03102340
+Iteration 52, loss = 0.02968909
+Iteration 53, loss = 0.03004995
+Iteration 54, loss = 0.02952100
+Iteration 55, loss = 0.02762923
+Iteration 56, loss = 0.02887225
+Iteration 57, loss = 0.02774835
+Iteration 58, loss = 0.02620550
+Iteration 59, loss = 0.02589167
+Iteration 60, loss = 0.02869512
+Iteration 61, loss = 0.02623575
+Iteration 62, loss = 0.02432970
+Iteration 63, loss = 0.02420006
+Iteration 64, loss = 0.02336130
+Iteration 65, loss = 0.02332646
+Iteration 66, loss = 0.02251697
+Iteration 67, loss = 0.02222827
+Iteration 68, loss = 0.02269484
+Iteration 69, loss = 0.02166434
+Iteration 70, loss = 0.02228016
+Iteration 71, loss = 0.02216284
+Iteration 72, loss = 0.02099177
+Iteration 73, loss = 0.02104143
+Iteration 74, loss = 0.02049743
+Iteration 75, loss = 0.01966186
+Iteration 76, loss = 0.01993988
+Iteration 77, loss = 0.01957062
+Iteration 78, loss = 0.02063453
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.64108289  0.94454976  1.        ]
+[ 1.          0.86765346  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3162 z 3583
+
+
+========= new iteration ===========
+kfold: 2
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9762
+...Train binary input: 9762
+...Train binary result: 9762
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.68626708
+Iteration 2, loss = 0.58579478
+Iteration 3, loss = 0.50451584
+Iteration 4, loss = 0.44673746
+Iteration 5, loss = 0.40393271
+Iteration 6, loss = 0.37149241
+Iteration 7, loss = 0.34556911
+Iteration 8, loss = 0.32393393
+Iteration 9, loss = 0.30523499
+Iteration 10, loss = 0.28908507
+Iteration 11, loss = 0.27458107
+Iteration 12, loss = 0.26165011
+Iteration 13, loss = 0.24959735
+Iteration 14, loss = 0.23872948
+Iteration 15, loss = 0.22868728
+Iteration 16, loss = 0.21947841
+Iteration 17, loss = 0.21076261
+Iteration 18, loss = 0.20279396
+Iteration 19, loss = 0.19508849
+Iteration 20, loss = 0.18782515
+Iteration 21, loss = 0.18120263
+Iteration 22, loss = 0.17487631
+Iteration 23, loss = 0.16857668
+Iteration 24, loss = 0.16286439
+Iteration 25, loss = 0.15736168
+Iteration 26, loss = 0.15214307
+Iteration 27, loss = 0.14729062
+Iteration 28, loss = 0.14260438
+Iteration 29, loss = 0.13807036
+Iteration 30, loss = 0.13373477
+Iteration 31, loss = 0.12969872
+Iteration 32, loss = 0.12573055
+Iteration 33, loss = 0.12198612
+Iteration 34, loss = 0.11839757
+Iteration 35, loss = 0.11500279
+Iteration 36, loss = 0.11171469
+Iteration 37, loss = 0.10845856
+Iteration 38, loss = 0.10533605
+Iteration 39, loss = 0.10247551
+Iteration 40, loss = 0.09963793
+Iteration 41, loss = 0.09691445
+Iteration 42, loss = 0.09435571
+Iteration 43, loss = 0.09183524
+Iteration 44, loss = 0.08935620
+Iteration 45, loss = 0.08704590
+Iteration 46, loss = 0.08474106
+Iteration 47, loss = 0.08254731
+Iteration 48, loss = 0.08056413
+Iteration 49, loss = 0.07854120
+Iteration 50, loss = 0.07655648
+Iteration 51, loss = 0.07472260
+Iteration 52, loss = 0.07278254
+Iteration 53, loss = 0.07106725
+Iteration 54, loss = 0.06938041
+Iteration 55, loss = 0.06773716
+Iteration 56, loss = 0.06612621
+Iteration 57, loss = 0.06463383
+Iteration 58, loss = 0.06303780
+Iteration 59, loss = 0.06168589
+Iteration 60, loss = 0.06029311
+Iteration 61, loss = 0.05893263
+Iteration 62, loss = 0.05759630
+Iteration 63, loss = 0.05638974
+Iteration 64, loss = 0.05517906
+Iteration 65, loss = 0.05386183
+Iteration 66, loss = 0.05272584
+Iteration 67, loss = 0.05144666
+Iteration 68, loss = 0.05048314
+Iteration 69, loss = 0.04934044
+Iteration 70, loss = 0.04833183
+Iteration 71, loss = 0.04734752
+Iteration 72, loss = 0.04648007
+Iteration 73, loss = 0.04546398
+Iteration 74, loss = 0.04451859
+Iteration 75, loss = 0.04359955
+Iteration 76, loss = 0.04275690
+Iteration 77, loss = 0.04204643
+Iteration 78, loss = 0.04106871
+Iteration 79, loss = 0.04037277
+Iteration 80, loss = 0.03956714
+Iteration 81, loss = 0.03891363
+Iteration 82, loss = 0.03808569
+Iteration 83, loss = 0.03739567
+Iteration 84, loss = 0.03668854
+Iteration 85, loss = 0.03608461
+Iteration 86, loss = 0.03538917
+Iteration 87, loss = 0.03483394
+Iteration 88, loss = 0.03400930
+Iteration 89, loss = 0.03346174
+Iteration 90, loss = 0.03292497
+Iteration 91, loss = 0.03252966
+Iteration 92, loss = 0.03163205
+Iteration 93, loss = 0.03105587
+Iteration 94, loss = 0.03037720
+Iteration 95, loss = 0.02991468
+Iteration 96, loss = 0.02948883
+Iteration 97, loss = 0.02910582
+Iteration 98, loss = 0.02831733
+Iteration 99, loss = 0.02802780
+Iteration 100, loss = 0.02743135
+Iteration 101, loss = 0.02704983
+Iteration 102, loss = 0.02661508
+Iteration 103, loss = 0.02615142
+Iteration 104, loss = 0.02569155
+Iteration 105, loss = 0.02536807
+Iteration 106, loss = 0.02499222
+Iteration 107, loss = 0.02457813
+Iteration 108, loss = 0.02418618
+Iteration 109, loss = 0.02380221
+Iteration 110, loss = 0.02353114
+Iteration 111, loss = 0.02327132
+Iteration 112, loss = 0.02277410
+Iteration 113, loss = 0.02246626
+Iteration 114, loss = 0.02208196
+Iteration 115, loss = 0.02190995
+Iteration 116, loss = 0.02159567
+Iteration 117, loss = 0.02123760
+Iteration 118, loss = 0.02102221
+Iteration 119, loss = 0.02096056
+Iteration 120, loss = 0.02048669
+Iteration 121, loss = 0.02037001
+Iteration 122, loss = 0.01993471
+Iteration 123, loss = 0.01961634
+Iteration 124, loss = 0.01953138
+Iteration 125, loss = 0.01921941
+Iteration 126, loss = 0.01897345
+Iteration 127, loss = 0.01884837
+Iteration 128, loss = 0.01862185
+Iteration 129, loss = 0.01829144
+Iteration 130, loss = 0.01799198
+Iteration 131, loss = 0.01781179
+Iteration 132, loss = 0.01788525
+Iteration 133, loss = 0.01742718
+Iteration 134, loss = 0.01717551
+Iteration 135, loss = 0.01708948
+Iteration 136, loss = 0.01676482
+Iteration 137, loss = 0.01675932
+Iteration 138, loss = 0.01643456
+Iteration 139, loss = 0.01653799
+Iteration 140, loss = 0.01613023
+Iteration 141, loss = 0.01599625
+Iteration 142, loss = 0.01579747
+Iteration 143, loss = 0.01581014
+Iteration 144, loss = 0.01563974
+Iteration 145, loss = 0.01543003
+Iteration 146, loss = 0.01525131
+Iteration 147, loss = 0.01508785
+Iteration 148, loss = 0.01496209
+Iteration 149, loss = 0.01496100
+Iteration 150, loss = 0.01475500
+Iteration 151, loss = 0.01453945
+Iteration 152, loss = 0.01440798
+Iteration 153, loss = 0.01429852
+Iteration 154, loss = 0.01438446
+Iteration 155, loss = 0.01416684
+Iteration 156, loss = 0.01392051
+Iteration 157, loss = 0.01379700
+Iteration 158, loss = 0.01375358
+Iteration 159, loss = 0.01368924
+Iteration 160, loss = 0.01351470
+Iteration 161, loss = 0.01339365
+Iteration 162, loss = 0.01326918
+Iteration 163, loss = 0.01325198
+Iteration 164, loss = 0.01306773
+Iteration 165, loss = 0.01308023
+Iteration 166, loss = 0.01298476
+Iteration 167, loss = 0.01294975
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.64108289  0.98727273  1.        ]
+[ 1.          0.94558119  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3430 z 3583
+
+
+========= new iteration ===========
+kfold: 3
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9882
+...Train binary input: 9882
+...Train binary result: 9882
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.67943118
+Iteration 2, loss = 0.50371685
+Iteration 3, loss = 0.39904621
+Iteration 4, loss = 0.32981876
+Iteration 5, loss = 0.28646652
+Iteration 6, loss = 0.25779173
+Iteration 7, loss = 0.23555269
+Iteration 8, loss = 0.21722547
+Iteration 9, loss = 0.20151993
+Iteration 10, loss = 0.18753890
+Iteration 11, loss = 0.17475294
+Iteration 12, loss = 0.16564345
+Iteration 13, loss = 0.15461946
+Iteration 14, loss = 0.14521492
+Iteration 15, loss = 0.13696445
+Iteration 16, loss = 0.12942015
+Iteration 17, loss = 0.12233267
+Iteration 18, loss = 0.11471873
+Iteration 19, loss = 0.10801155
+Iteration 20, loss = 0.10149089
+Iteration 21, loss = 0.09440209
+Iteration 22, loss = 0.08954993
+Iteration 23, loss = 0.08484116
+Iteration 24, loss = 0.08018962
+Iteration 25, loss = 0.07434529
+Iteration 26, loss = 0.06973521
+Iteration 27, loss = 0.06635457
+Iteration 28, loss = 0.06256775
+Iteration 29, loss = 0.05924011
+Iteration 30, loss = 0.05708354
+Iteration 31, loss = 0.05415576
+Iteration 32, loss = 0.05161369
+Iteration 33, loss = 0.04804026
+Iteration 34, loss = 0.04620677
+Iteration 35, loss = 0.04489350
+Iteration 36, loss = 0.04221140
+Iteration 37, loss = 0.03985570
+Iteration 38, loss = 0.03862524
+Iteration 39, loss = 0.03596949
+Iteration 40, loss = 0.03473236
+Iteration 41, loss = 0.03357037
+Iteration 42, loss = 0.03216835
+Iteration 43, loss = 0.03060051
+Iteration 44, loss = 0.02958315
+Iteration 45, loss = 0.02796977
+Iteration 46, loss = 0.02826696
+Iteration 47, loss = 0.02658692
+Iteration 48, loss = 0.02607780
+Iteration 49, loss = 0.02636128
+Iteration 50, loss = 0.02494607
+Iteration 51, loss = 0.02351470
+Iteration 52, loss = 0.02333718
+Iteration 53, loss = 0.02307783
+Iteration 54, loss = 0.02390759
+Iteration 55, loss = 0.02372969
+Iteration 56, loss = 0.02040085
+Iteration 57, loss = 0.02039371
+Iteration 58, loss = 0.02024045
+Iteration 59, loss = 0.01896889
+Iteration 60, loss = 0.01857300
+Iteration 61, loss = 0.01796788
+Iteration 62, loss = 0.01784096
+Iteration 63, loss = 0.01856526
+Iteration 64, loss = 0.01737326
+Iteration 65, loss = 0.01816292
+Iteration 66, loss = 0.01731038
+Iteration 67, loss = 0.01703031
+Iteration 68, loss = 0.01745531
+Iteration 69, loss = 0.01627972
+Iteration 70, loss = 0.01625164
+Iteration 71, loss = 0.01607393
+Iteration 72, loss = 0.01536670
+Iteration 73, loss = 0.01480818
+Iteration 74, loss = 0.01575479
+Iteration 75, loss = 0.01534106
+Iteration 76, loss = 0.01523902
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.65782864  0.94768242  1.        ]
+[ 1.         0.8761137  0.       ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3177 z 3583
+
+
+========= new iteration ===========
+kfold: 3
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9882
+...Train binary input: 9882
+...Train binary result: 9882
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.68527443
+Iteration 2, loss = 0.58211587
+Iteration 3, loss = 0.49946156
+Iteration 4, loss = 0.44123681
+Iteration 5, loss = 0.39935956
+Iteration 6, loss = 0.36772097
+Iteration 7, loss = 0.34240532
+Iteration 8, loss = 0.32110619
+Iteration 9, loss = 0.30274945
+Iteration 10, loss = 0.28691890
+Iteration 11, loss = 0.27267192
+Iteration 12, loss = 0.25984000
+Iteration 13, loss = 0.24823527
+Iteration 14, loss = 0.23734091
+Iteration 15, loss = 0.22742762
+Iteration 16, loss = 0.21822322
+Iteration 17, loss = 0.20969093
+Iteration 18, loss = 0.20194966
+Iteration 19, loss = 0.19421358
+Iteration 20, loss = 0.18723370
+Iteration 21, loss = 0.18050828
+Iteration 22, loss = 0.17417635
+Iteration 23, loss = 0.16818377
+Iteration 24, loss = 0.16246929
+Iteration 25, loss = 0.15702209
+Iteration 26, loss = 0.15188568
+Iteration 27, loss = 0.14683384
+Iteration 28, loss = 0.14239225
+Iteration 29, loss = 0.13761382
+Iteration 30, loss = 0.13343574
+Iteration 31, loss = 0.12935702
+Iteration 32, loss = 0.12545604
+Iteration 33, loss = 0.12171363
+Iteration 34, loss = 0.11809788
+Iteration 35, loss = 0.11466410
+Iteration 36, loss = 0.11122703
+Iteration 37, loss = 0.10815123
+Iteration 38, loss = 0.10511489
+Iteration 39, loss = 0.10211410
+Iteration 40, loss = 0.09940596
+Iteration 41, loss = 0.09677394
+Iteration 42, loss = 0.09404064
+Iteration 43, loss = 0.09162335
+Iteration 44, loss = 0.08925995
+Iteration 45, loss = 0.08677013
+Iteration 46, loss = 0.08459371
+Iteration 47, loss = 0.08256807
+Iteration 48, loss = 0.08035269
+Iteration 49, loss = 0.07818127
+Iteration 50, loss = 0.07632114
+Iteration 51, loss = 0.07438070
+Iteration 52, loss = 0.07263708
+Iteration 53, loss = 0.07086502
+Iteration 54, loss = 0.06911455
+Iteration 55, loss = 0.06744592
+Iteration 56, loss = 0.06600437
+Iteration 57, loss = 0.06433235
+Iteration 58, loss = 0.06284355
+Iteration 59, loss = 0.06142211
+Iteration 60, loss = 0.06000593
+Iteration 61, loss = 0.05876256
+Iteration 62, loss = 0.05736491
+Iteration 63, loss = 0.05614579
+Iteration 64, loss = 0.05491634
+Iteration 65, loss = 0.05381956
+Iteration 66, loss = 0.05259342
+Iteration 67, loss = 0.05148353
+Iteration 68, loss = 0.05063634
+Iteration 69, loss = 0.04931966
+Iteration 70, loss = 0.04844010
+Iteration 71, loss = 0.04720477
+Iteration 72, loss = 0.04636802
+Iteration 73, loss = 0.04549761
+Iteration 74, loss = 0.04469023
+Iteration 75, loss = 0.04378750
+Iteration 76, loss = 0.04281170
+Iteration 77, loss = 0.04187892
+Iteration 78, loss = 0.04108415
+Iteration 79, loss = 0.04049298
+Iteration 80, loss = 0.03977208
+Iteration 81, loss = 0.03886385
+Iteration 82, loss = 0.03807481
+Iteration 83, loss = 0.03753744
+Iteration 84, loss = 0.03674893
+Iteration 85, loss = 0.03638612
+Iteration 86, loss = 0.03559116
+Iteration 87, loss = 0.03497859
+Iteration 88, loss = 0.03435062
+Iteration 89, loss = 0.03365905
+Iteration 90, loss = 0.03325970
+Iteration 91, loss = 0.03257225
+Iteration 92, loss = 0.03197874
+Iteration 93, loss = 0.03142354
+Iteration 94, loss = 0.03105814
+Iteration 95, loss = 0.03049295
+Iteration 96, loss = 0.03004521
+Iteration 97, loss = 0.02952694
+Iteration 98, loss = 0.02920606
+Iteration 99, loss = 0.02881617
+Iteration 100, loss = 0.02827716
+Iteration 101, loss = 0.02779192
+Iteration 102, loss = 0.02740276
+Iteration 103, loss = 0.02698960
+Iteration 104, loss = 0.02635108
+Iteration 105, loss = 0.02617568
+Iteration 106, loss = 0.02571451
+Iteration 107, loss = 0.02542814
+Iteration 108, loss = 0.02497022
+Iteration 109, loss = 0.02466356
+Iteration 110, loss = 0.02440822
+Iteration 111, loss = 0.02401105
+Iteration 112, loss = 0.02373269
+Iteration 113, loss = 0.02340866
+Iteration 114, loss = 0.02317957
+Iteration 115, loss = 0.02277679
+Iteration 116, loss = 0.02235968
+Iteration 117, loss = 0.02226786
+Iteration 118, loss = 0.02185397
+Iteration 119, loss = 0.02156769
+Iteration 120, loss = 0.02140806
+Iteration 121, loss = 0.02112600
+Iteration 122, loss = 0.02097275
+Iteration 123, loss = 0.02064485
+Iteration 124, loss = 0.02039961
+Iteration 125, loss = 0.02039138
+Iteration 126, loss = 0.02006218
+Iteration 127, loss = 0.01962145
+Iteration 128, loss = 0.01962925
+Iteration 129, loss = 0.01943151
+Iteration 130, loss = 0.01906892
+Iteration 131, loss = 0.01881014
+Iteration 132, loss = 0.01870986
+Iteration 133, loss = 0.01857937
+Iteration 134, loss = 0.01834677
+Iteration 135, loss = 0.01815196
+Iteration 136, loss = 0.01797575
+Iteration 137, loss = 0.01772975
+Iteration 138, loss = 0.01758748
+Iteration 139, loss = 0.01758167
+Iteration 140, loss = 0.01737964
+Iteration 141, loss = 0.01693364
+Iteration 142, loss = 0.01707596
+Iteration 143, loss = 0.01696222
+Iteration 144, loss = 0.01659129
+Iteration 145, loss = 0.01662646
+Iteration 146, loss = 0.01653658
+Iteration 147, loss = 0.01630916
+Iteration 148, loss = 0.01624491
+Iteration 149, loss = 0.01587670
+Iteration 150, loss = 0.01587625
+Iteration 151, loss = 0.01561381
+Iteration 152, loss = 0.01555271
+Iteration 153, loss = 0.01558913
+Iteration 154, loss = 0.01554390
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.65782864  0.98813187  1.        ]
+[ 1.          0.95375477  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3447 z 3583
+
+
+========= new iteration ===========
+kfold: 4
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9934
+...Train binary input: 9934
+...Train binary result: 9934
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.71495065
+Iteration 2, loss = 0.50825469
+Iteration 3, loss = 0.38265661
+Iteration 4, loss = 0.32134372
+Iteration 5, loss = 0.28430792
+Iteration 6, loss = 0.25875786
+Iteration 7, loss = 0.23854650
+Iteration 8, loss = 0.22106597
+Iteration 9, loss = 0.20585447
+Iteration 10, loss = 0.19473835
+Iteration 11, loss = 0.18038371
+Iteration 12, loss = 0.16974949
+Iteration 13, loss = 0.16163114
+Iteration 14, loss = 0.15057685
+Iteration 15, loss = 0.14297954
+Iteration 16, loss = 0.13623414
+Iteration 17, loss = 0.12830574
+Iteration 18, loss = 0.12151682
+Iteration 19, loss = 0.11538970
+Iteration 20, loss = 0.10989886
+Iteration 21, loss = 0.10587238
+Iteration 22, loss = 0.10176281
+Iteration 23, loss = 0.09647552
+Iteration 24, loss = 0.09212064
+Iteration 25, loss = 0.08814870
+Iteration 26, loss = 0.08539209
+Iteration 27, loss = 0.08182790
+Iteration 28, loss = 0.07799738
+Iteration 29, loss = 0.07526697
+Iteration 30, loss = 0.07144384
+Iteration 31, loss = 0.06876027
+Iteration 32, loss = 0.06656556
+Iteration 33, loss = 0.06365127
+Iteration 34, loss = 0.06160637
+Iteration 35, loss = 0.05963807
+Iteration 36, loss = 0.05932359
+Iteration 37, loss = 0.05618281
+Iteration 38, loss = 0.05419266
+Iteration 39, loss = 0.05234580
+Iteration 40, loss = 0.05041886
+Iteration 41, loss = 0.04873481
+Iteration 42, loss = 0.04703320
+Iteration 43, loss = 0.04583681
+Iteration 44, loss = 0.04474908
+Iteration 45, loss = 0.04371686
+Iteration 46, loss = 0.04148891
+Iteration 47, loss = 0.04160207
+Iteration 48, loss = 0.04083233
+Iteration 49, loss = 0.03919747
+Iteration 50, loss = 0.03829582
+Iteration 51, loss = 0.03709704
+Iteration 52, loss = 0.03635487
+Iteration 53, loss = 0.03532542
+Iteration 54, loss = 0.03449999
+Iteration 55, loss = 0.03282112
+Iteration 56, loss = 0.03332427
+Iteration 57, loss = 0.03174045
+Iteration 58, loss = 0.03225953
+Iteration 59, loss = 0.03174372
+Iteration 60, loss = 0.02983896
+Iteration 61, loss = 0.03054000
+Iteration 62, loss = 0.02923954
+Iteration 63, loss = 0.02894841
+Iteration 64, loss = 0.02910665
+Iteration 65, loss = 0.02736942
+Iteration 66, loss = 0.02725108
+Iteration 67, loss = 0.02689669
+Iteration 68, loss = 0.02732108
+Iteration 69, loss = 0.02653883
+Iteration 70, loss = 0.02462654
+Iteration 71, loss = 0.02470982
+Iteration 72, loss = 0.02439634
+Iteration 73, loss = 0.02643272
+Iteration 74, loss = 0.02382205
+Iteration 75, loss = 0.02382362
+Iteration 76, loss = 0.02315406
+Iteration 77, loss = 0.02347192
+Iteration 78, loss = 0.02196698
+Iteration 79, loss = 0.02255508
+Iteration 80, loss = 0.02271810
+Iteration 81, loss = 0.02201744
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.66508512  0.95546373  1.        ]
+[ 1.          0.87326899  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3184 z 3583
+
+
+========= new iteration ===========
+kfold: 4
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9934
+...Train binary input: 9934
+...Train binary result: 9934
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+Iteration 1, loss = 0.68533374
+Iteration 2, loss = 0.58278037
+Iteration 3, loss = 0.50110016
+Iteration 4, loss = 0.44382107
+Iteration 5, loss = 0.40202815
+Iteration 6, loss = 0.36990146
+Iteration 7, loss = 0.34426340
+Iteration 8, loss = 0.32275963
+Iteration 9, loss = 0.30444018
+Iteration 10, loss = 0.28815071
+Iteration 11, loss = 0.27369915
+Iteration 12, loss = 0.26091677
+Iteration 13, loss = 0.24901306
+Iteration 14, loss = 0.23826953
+Iteration 15, loss = 0.22819176
+Iteration 16, loss = 0.21883013
+Iteration 17, loss = 0.21025632
+Iteration 18, loss = 0.20219060
+Iteration 19, loss = 0.19447837
+Iteration 20, loss = 0.18727583
+Iteration 21, loss = 0.18055459
+Iteration 22, loss = 0.17423253
+Iteration 23, loss = 0.16812872
+Iteration 24, loss = 0.16233308
+Iteration 25, loss = 0.15686138
+Iteration 26, loss = 0.15168808
+Iteration 27, loss = 0.14667675
+Iteration 28, loss = 0.14191388
+Iteration 29, loss = 0.13755816
+Iteration 30, loss = 0.13320364
+Iteration 31, loss = 0.12916976
+Iteration 32, loss = 0.12513062
+Iteration 33, loss = 0.12138946
+Iteration 34, loss = 0.11788890
+Iteration 35, loss = 0.11430697
+Iteration 36, loss = 0.11123490
+Iteration 37, loss = 0.10809442
+Iteration 38, loss = 0.10480579
+Iteration 39, loss = 0.10201185
+Iteration 40, loss = 0.09900307
+Iteration 41, loss = 0.09647624
+Iteration 42, loss = 0.09384038
+Iteration 43, loss = 0.09125596
+Iteration 44, loss = 0.08902318
+Iteration 45, loss = 0.08655639
+Iteration 46, loss = 0.08433786
+Iteration 47, loss = 0.08216128
+Iteration 48, loss = 0.08007235
+Iteration 49, loss = 0.07797060
+Iteration 50, loss = 0.07614625
+Iteration 51, loss = 0.07419983
+Iteration 52, loss = 0.07231675
+Iteration 53, loss = 0.07065660
+Iteration 54, loss = 0.06898352
+Iteration 55, loss = 0.06735800
+Iteration 56, loss = 0.06567085
+Iteration 57, loss = 0.06402655
+Iteration 58, loss = 0.06261190
+Iteration 59, loss = 0.06117623
+Iteration 60, loss = 0.05985498
+Iteration 61, loss = 0.05855079
+Iteration 62, loss = 0.05723518
+Iteration 63, loss = 0.05589412
+Iteration 64, loss = 0.05468765
+Iteration 65, loss = 0.05337640
+Iteration 66, loss = 0.05238917
+Iteration 67, loss = 0.05122426
+Iteration 68, loss = 0.05010672
+Iteration 69, loss = 0.04902736
+Iteration 70, loss = 0.04811526
+Iteration 71, loss = 0.04708030
+Iteration 72, loss = 0.04618265
+Iteration 73, loss = 0.04510124
+Iteration 74, loss = 0.04416093
+Iteration 75, loss = 0.04332562
+Iteration 76, loss = 0.04245075
+Iteration 77, loss = 0.04160908
+Iteration 78, loss = 0.04078345
+Iteration 79, loss = 0.04005629
+Iteration 80, loss = 0.03919456
+Iteration 81, loss = 0.03850748
+Iteration 82, loss = 0.03802344
+Iteration 83, loss = 0.03689003
+Iteration 84, loss = 0.03643327
+Iteration 85, loss = 0.03570230
+Iteration 86, loss = 0.03502276
+Iteration 87, loss = 0.03447797
+Iteration 88, loss = 0.03371511
+Iteration 89, loss = 0.03308736
+Iteration 90, loss = 0.03264479
+Iteration 91, loss = 0.03188823
+Iteration 92, loss = 0.03159019
+Iteration 93, loss = 0.03098844
+Iteration 94, loss = 0.03037365
+Iteration 95, loss = 0.02992889
+Iteration 96, loss = 0.02942179
+Iteration 97, loss = 0.02902299
+Iteration 98, loss = 0.02838643
+Iteration 99, loss = 0.02789973
+Iteration 100, loss = 0.02743782
+Iteration 101, loss = 0.02698838
+Iteration 102, loss = 0.02656954
+Iteration 103, loss = 0.02632999
+Iteration 104, loss = 0.02594376
+Iteration 105, loss = 0.02544153
+Iteration 106, loss = 0.02509943
+Iteration 107, loss = 0.02483511
+Iteration 108, loss = 0.02422502
+Iteration 109, loss = 0.02396861
+Iteration 110, loss = 0.02349562
+Iteration 111, loss = 0.02336864
+Iteration 112, loss = 0.02307832
+Iteration 113, loss = 0.02258247
+Iteration 114, loss = 0.02234021
+Iteration 115, loss = 0.02203308
+Iteration 116, loss = 0.02172995
+Iteration 117, loss = 0.02125853
+Iteration 118, loss = 0.02107439
+Iteration 119, loss = 0.02078257
+Iteration 120, loss = 0.02087439
+Iteration 121, loss = 0.02021275
+Iteration 122, loss = 0.01998239
+Iteration 123, loss = 0.01971335
+Iteration 124, loss = 0.01971031
+Iteration 125, loss = 0.01919953
+Iteration 126, loss = 0.01912933
+Iteration 127, loss = 0.01873432
+Iteration 128, loss = 0.01861853
+Iteration 129, loss = 0.01838470
+Iteration 130, loss = 0.01815643
+Iteration 131, loss = 0.01797067
+Iteration 132, loss = 0.01782389
+Iteration 133, loss = 0.01744553
+Iteration 134, loss = 0.01747183
+Iteration 135, loss = 0.01716417
+Iteration 136, loss = 0.01694921
+Iteration 137, loss = 0.01680005
+Iteration 138, loss = 0.01662092
+Iteration 139, loss = 0.01629331
+Iteration 140, loss = 0.01628078
+Iteration 141, loss = 0.01622281
+Iteration 142, loss = 0.01625884
+Training loss did not improve more than tol=0.000100 for two consecutive epochs. Stopping.
+...Neural network predict...
+[ 0.66508512  0.98986784  1.        ]
+[ 1.          0.94292908  0.        ]
+[0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3424 z 3583
