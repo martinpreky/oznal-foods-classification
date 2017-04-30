@@ -97,7 +97,7 @@ def fill_tokens():
     if is_with_recipe:
         query = "SELECT array(SELECT token FROM tokens)"
     else:
-        query = "SELECT array(SELECT token FROM tokens) WHERE recipe_only = false"
+        query = "SELECT array(SELECT token FROM tokens WHERE recipe_only = false)"
 
     cur = conn.cursor()
     cur.execute(query)

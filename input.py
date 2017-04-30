@@ -79,13 +79,10 @@ class Input:
     def to_binary(tokens, stringInputs):
         result = []
         for input in stringInputs:
-            partialBinaryInput = []
+            partialBinaryInput = [0] * len(tokens)
 
-            for token in tokens:
-                if token in input:
-                    partialBinaryInput.append(1)
-                else:
-                    partialBinaryInput.append(0)
+            for token in input:
+                partialBinaryInput[tokens.index(token)] = 1
 
             result.append(partialBinaryInput)
 
