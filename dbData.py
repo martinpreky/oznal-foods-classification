@@ -1,31 +1,32 @@
 import input
 import psycopg2
 
-tokens = []
-
-train_string_input = []
-
-train_binary_result = []
-
-test_string_input = []
-
-test_binary_result = []
-
-
 global items_kfold
+
+global is_with_recipe
 
 global conn
 
 
-def get_input_instance(items_kfold_str):
+def get_input_instance(items_kfold_str, with_recipe):
     global items_kfold
+    global is_with_recipe
+
     items_kfold = items_kfold_str
+    is_with_recipe = with_recipe
+
     init()
-    input_instance = input.Input(tokens,
-                                 train_string_input,
-                                 train_binary_result,
-                                 test_string_input,
-                                 test_binary_result)
+
+    # tokens,
+    # trainStrInput,
+    # trainBinaryResult,
+    # testStrInput,
+    # testBinaryResult
+    input_instance = input.Input(fill_tokens(),
+                                 fill_string_input('true'),
+                                 fill_binary_result('true'),
+                                 fill_string_input('false'),
+                                 fill_binary_result('false'))
 
     return input_instance
 
@@ -42,17 +43,9 @@ def init():
     except:
         print("I am unable to connect to the database")
 
-    fill_tokens()
-    fill_binary_result('true')
-    fill_binary_result('false')
-    fill_string_input('true')
-    fill_string_input('false')
-
 
 def fill_binary_result(is_train):
     print("... filling binary result, train is " + is_train)
-    global train_binary_result
-    global test_binary_result
 
     query = "select array(" \
             "select " \
@@ -67,18 +60,20 @@ def fill_binary_result(is_train):
     cur = conn.cursor()
     cur.execute(query)
     rows = cur.fetchall()
-    if is_train == 'true':
-        train_binary_result = rows[0][0]
-    elif is_train == 'false':
-        test_binary_result = rows[0][0]
+
+    return rows[0][0]
 
 
 def fill_string_input(is_train):
     print("... filling string inputs, train is %s" % is_train)
-    global train_string_input
-    global test_string_input
 
-    query = "SELECT i.tokens " \
+    select = ""
+    if is_with_recipe:
+        select = "SELECT array_cat(i.tokens, i.recipe_tokens)"
+    else:
+        select = "SELECT i.tokens"
+
+    query = select + " " \
             "FROM items AS i " \
             "JOIN " + items_kfold + " AS k ON i.id = k.id " \
             "WHERE k.train = " + is_train + " " \
@@ -92,21 +87,21 @@ def fill_string_input(is_train):
     for row in rows:
         tmp_array_string.append(row[0])
 
-    if is_train == 'true':
-        train_string_input = tmp_array_string
-    elif is_train == 'false':
-        test_string_input = tmp_array_string
+    return tmp_array_string
 
 
 def fill_tokens():
     print("... filling tokens")
-    global tokens
 
-    query = "SELECT array(SELECT token FROM tokens WHERE recipe = false)"
+    query = ""
+    if is_with_recipe:
+        query = "SELECT array(SELECT token FROM tokens)"
+    else:
+        query = "SELECT array(SELECT token FROM tokens) WHERE recipe_only = false"
 
     cur = conn.cursor()
     cur.execute(query)
     rows = cur.fetchall()
 
-    tokens = rows[0][0]
+    return rows[0][0]
 
