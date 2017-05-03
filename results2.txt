@@ -1,0 +1,264 @@
+
+
+========= new iteration ===========
+kfold: 1
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9798
+...Train binary input: 9798
+...Train binary result: 9798
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.35389339  0.06042708  1.        ]
+recall: [ 1.          0.10488959  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.64610661  0.93957292  1.        ]
+recall: [ 1.          0.89330454  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3203 z 3583
+
+
+========= new iteration ===========
+kfold: 1
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9798
+...Train binary input: 9798
+...Train binary result: 9798
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.35389339  0.01834452  1.        ]
+recall: [ 1.          0.03233438  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.64610661  0.98165548  1.        ]
+recall: [ 1.          0.94773218  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3421 z 3583
+
+
+========= new iteration ===========
+kfold: 2
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9762
+...Train binary input: 9762
+...Train binary result: 9762
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.35891711  0.05545024  1.        ]
+recall: [ 1.          0.09097978  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.64108289  0.94454976  1.        ]
+recall: [ 1.          0.86765346  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3162 z 3583
+
+
+========= new iteration ===========
+kfold: 2
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9762
+...Train binary input: 9762
+...Train binary result: 9762
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.35891711  0.01272727  1.        ]
+recall: [ 1.          0.02177294  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.64108289  0.98727273  1.        ]
+recall: [ 1.          0.94558119  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3430 z 3583
+
+
+========= new iteration ===========
+kfold: 3
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9882
+...Train binary input: 9882
+...Train binary result: 9882
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.34217136  0.05231758  1.        ]
+recall: [ 1.          0.09298532  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.65782864  0.94768242  1.        ]
+recall: [ 1.         0.8761137  0.       ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3177 z 3583
+
+
+========= new iteration ===========
+kfold: 3
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9882
+...Train binary input: 9882
+...Train binary result: 9882
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.34217136  0.01186813  1.        ]
+recall: [ 1.          0.02202284  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.65782864  0.98813187  1.        ]
+recall: [ 1.          0.95375477  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3447 z 3583
+
+
+========= new iteration ===========
+kfold: 4
+include recipes: True
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 6880
+...Train string input: 9934
+...Train binary input: 9934
+...Train binary result: 9934
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.33491488  0.04453627  1.        ]
+recall: [ 1.          0.08083333  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.66508512  0.95546373  1.        ]
+recall: [ 1.          0.87326899  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3184 z 3583
+
+
+========= new iteration ===========
+kfold: 4
+include recipes: False
+...Initializing db...
+... filling tokens
+... filling string inputs, train is true
+... filling binary result, train is true
+... filling string inputs, train is false
+... filling binary result, train is false
+...Input class constructor...
+...Tokens: 4242
+...Train string input: 9934
+...Train binary input: 9934
+...Train binary result: 9934
+...Test string input: 3583
+...Test binary input: 3583
+...Test binary result: 3583
+...Neural network init...
+...Neural network train...
+...Neural network predict...
+class 0
+precision: [ 0.33491488  0.01013216  1.        ]
+recall: [ 1.          0.01916667  0.        ]
+thresholds: [0 1]
+class 1
+precision: [ 0.66508512  0.98986784  1.        ]
+recall: [ 1.          0.94292908  0.        ]
+thresholds: [0 1]
+------- Message report -------
+Presnost relativne: 0.00
+Presnost absolutne: 3424 z 3583
